@@ -62,7 +62,7 @@ if azione == "➕ Aggiungi Nuovo":
     with st.form("nuovo_laghetto_form"):
         nome = st.text_input("Nome del laghetto (es. La Fossa, Paradise...)")
         citta = st.text_input("Città / Provincia")
-        tipo_pesca = st.multiselect("Tipo di pesca", ["Trota Lago", "Carpfishing", "Cavedano", "Black Bass", "Pesce Gatto", "Storione bianco","Beluga","Pinocchietto","Cobice","Sterlato","Ibrido"])
+        tipo_pesca = st.multiselect("Tipo di pesca", ["Trota Lago", "Carpfishing", "Cavedano", "Black Bass", "Pesce Gatto", "Storione bianco","Beluga","Pinocchietto","Cobice","Sterlato","Ibrido","betto"])
         regole = st.text_area("Regolamento e Costi (es. 20€ al giorno, max 2 canne, divieto di trattenuta...)")
         note = st.text_area("Note personali ed Esche vincenti (es. Camola del miele a galla, Formaggio...)")
         
